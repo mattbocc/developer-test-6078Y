@@ -14,9 +14,4 @@ Expected output - Return the top 5 most highly expressed genes.
 4. Merge the expression and clinical data so that each row corresponds to a sample with both gene expression and clinical metadata.
 Expected output - Keep only samples present in both datasets.
 
-5. Simple Analysis-
-From the clinical data, identify if there is a categorical variable (e.g., Response, Gender) that can be used for grouping.
-Compare the mean expression of the top 5 genes between groups (e.g., responders vs. non-responders) using a t-test or Wilcoxon test.
-Report the p-values.
-
-6. Save files
+5. Save files

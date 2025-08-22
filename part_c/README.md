@@ -1,10 +1,8 @@
-## Tasks
+## Task
 
-1. Fix resource requests for basic processing of a small dataset (<10 GB) on a single node
-2. Error handling
-	- Ensure the scripts exits upon an error
-	- Ensure error is thrown if variables are missing 
-3. Correct module loads.
-4. Change job to run pipeline.smk via snakemake where pipeline.smk is in the cwd.
-5. Add email notification to ‘test@uhn.ca’ on job completion.
+You are given the benchmark outputs for a Snakemake pipeline running on a HPC cluster. Based on the benchmarks, optimize the SBATCH script to better reflect the resources and time needed to execute this pipeline on the given cluster. 
+
+![snakemake_output](imgs/snakemake_output.png)
+
+![snakemake_table](imgs/snakemake_table.png)
 
